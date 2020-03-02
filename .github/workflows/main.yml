@@ -8,6 +8,6 @@ jobs:
         steps:
         - name: CheckStyle action step
           id: checkstyle
-          uses: bshewan/checkstyle-action@437db79f368f72a17972e2778baa6d8893405856
+          uses: bshewan/checkstyle-action@74f2a5ed7e354b6c5cf0cb6d0fc123cbfb12643f
         - name: Completion step
           run: echo "Completed checking the style!"
