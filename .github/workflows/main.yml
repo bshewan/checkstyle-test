@@ -1,0 +1,13 @@
+
+on: [push]
+
+jobs:
+    check_style_job:
+        runs-on: ubuntu-latest
+        name: A job to check java code style
+        steps:
+        - name: CheckStyle action step
+          id: checkstyle
+          uses: actions/checkstyle-action
+        - name: Completion step
+          run: echo "Completed checking the style!"
