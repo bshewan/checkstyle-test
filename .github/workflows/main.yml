@@ -10,6 +10,6 @@ jobs:
           uses: actions/checkout@v2
         - name: CheckStyle action step
           id: checkstyle
-          uses: bshewan/checkstyle-action@74f2a5ed7e354b6c5cf0cb6d0fc123cbfb12643f
+          uses: bshewan/checkstyle-action@ea6eab0bdee7108f59e8a320cc732507e625a2f0
         - name: Completion step
           run: echo "Completed checking the style!"
