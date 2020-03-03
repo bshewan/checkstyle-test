@@ -6,6 +6,8 @@ jobs:
         runs-on: ubuntu-latest
         name: A job to check java code style
         steps:
+        - name: Checkout code step
+          uses: actions/checkout@v2
         - name: CheckStyle action step
           id: checkstyle
           uses: bshewan/checkstyle-action@74f2a5ed7e354b6c5cf0cb6d0fc123cbfb12643f
